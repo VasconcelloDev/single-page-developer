@@ -2,7 +2,19 @@
   margin: 0;
   box-sizing: border-box;
   padding: 0;
+}
+
+body {
   background-color: black;
+}
+
+html,
+body {
+  overflow-x: hidden;
+}
+
+main {
+  padding: 0px 16px;
 }
 
 .hero__single__page {
@@ -20,4 +32,83 @@
   margin-top: 20px;
   display: flex;
   gap: 20px;
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+}
+.hero__rings {
+  margin-top: 32px;
+  height: 129px;
+  width: 530px;
+  position: absolute;
+  left: -325px;
+  top: 95px;
+}
+.hero__profile {
+  width: 174.207px;
+  height: 383px;
+  object-fit: contain;
+  margin-top: -104px;
+  z-index: 2;
+}
+
+.hero__circle-2 {
+  position: absolute;
+  top: 258px;
+  right: -60px;
+}
+
+.hero__text__container {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  align-items: center;
+}
+
+.hero__text__container h1 {
+  color: #fff;
+  text-align: center;
+  font-family: Space Grotesk, sans-serif;
+  font-size: 2.5rem;
+  margin-top: 40px;
+  font-weight: 700;
+  line-height: 2.5rem;
+  letter-spacing: -1.136px;
+  max-width: 15ch;
+}
+.hero__text__container p {
+  color: #d9d9d9;
+  text-align: center;
+  font-family: Space Grotesk, sans-serif;
+  font-size: 1rem;
+  margin-top: 20px;
+  font-weight: 500;
+  line-height: 1.625rem;
+  max-width: 55ch;
+}
+.hero__text__container a {
+  color: #fff;
+  font-family: Space Grotesk, sans-serif;
+  font-size: 16px;
+  text-decoration: none;
+  margin-top: 24px;
+  font-weight: 700;
+  line-height: 26px;
+  letter-spacing: 2.286px;
+  border-bottom: 2px solid #4ee1a0;
+  padding-bottom: 8px;
+}
+.hero__text__container span {
+  border-bottom: 4px solid #4ee1a0;
+  padding-top: 0px;
+}
+
+.hero__finish__line {
+  border: 1px solid white;
+  margin-top: 75px;
+  width: 343px;
 }
