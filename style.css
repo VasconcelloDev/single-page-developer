@@ -107,7 +107,8 @@ main {
 .hero__finish__line {
   border: 1px solid white;
   margin-top: 75px;
-  width: 343px;
+  width: 100%;
+  padding: 0px 16px;
 }
 
 .experience {
@@ -229,7 +230,6 @@ main {
   background: #242424;
   text-align: center;
   position: relative;
-
   margin-top: 80px;
 }
 
@@ -289,7 +289,6 @@ main {
   line-height: 1.625rem;
   letter-spacing: 2.286px;
   border: none;
-
   border-bottom: 2px solid #4ee1a0;
   background-color: transparent;
   color: #fff;
