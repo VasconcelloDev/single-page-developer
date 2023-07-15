@@ -42,9 +42,11 @@ main {
 .hero {
   display: flex;
   flex-direction: column;
-
   align-items: center;
+  border-bottom: 1px solid white;
+  padding-bottom: 73px;
 }
+
 .hero__rings {
   margin-top: 32px;
   height: 129px;
@@ -53,12 +55,17 @@ main {
   left: -325px;
   top: 95px;
 }
-.hero__profile {
+
+.hero__profile-mobile {
   width: 174.207px;
   height: 383px;
   object-fit: contain;
   margin-top: -104px;
   z-index: 2;
+}
+
+.hero__profile-tablet {
+  display: none;
 }
 
 .hero__circle-2 {
@@ -67,16 +74,16 @@ main {
   right: -60px;
 }
 
-.hero__text__container {
+.hero__text-container {
   display: flex;
   flex-direction: column;
   gap: 24px;
   align-items: center;
+  text-align: center;
 }
 
-.hero__text__container h1 {
+.hero__text-container__title {
   color: #fff;
-  text-align: center;
   font-size: 2.5rem;
   margin-top: 40px;
   font-weight: 700;
@@ -84,16 +91,22 @@ main {
   letter-spacing: -1.136px;
   max-width: 15ch;
 }
-.hero__text__container p {
+
+.hero__text-container__title span {
+  border-bottom: 4px solid #4ee1a0;
+  padding-top: 0px;
+}
+
+.hero__text-container__description {
   color: #d9d9d9;
-  text-align: center;
   font-size: 1rem;
   margin-top: 20px;
   font-weight: 500;
   line-height: 1.625rem;
   max-width: 55ch;
 }
-.hero__text__container a {
+
+.hero__text-container__button {
   color: #fff;
   font-size: 16px;
   text-decoration: none;
@@ -103,10 +116,6 @@ main {
   letter-spacing: 2.286px;
   border-bottom: 2px solid #4ee1a0;
   padding-bottom: 8px;
-}
-.hero__text__container span {
-  border-bottom: 4px solid #4ee1a0;
-  padding-top: 0px;
 }
 
 .hero__finish__line {
@@ -337,10 +346,66 @@ main {
     justify-content: space-between;
     margin-top: 30px;
     padding: 0 30px;
+    position: relative;
+    z-index: 2;
   }
 
   .header__social-media {
     margin-top: 0;
     gap: 28px;
+  }
+
+  main {
+    padding: 0 32px;
+  }
+
+  .hero {
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    padding-bottom: 60px;
+  }
+
+  .hero__text-container {
+    text-align: left;
+    align-items: unset;
+  }
+
+  .hero__text-container__title {
+    font-size: 4.5rem;
+    line-height: 4.5rem;
+    letter-spacing: -2.045px;
+    max-width: 8ch;
+  }
+
+  .hero__text-container__description {
+    margin-top: 60px;
+    font-size: 1.125rem;
+    line-height: 1.675rem;
+    max-width: 38ch;
+  }
+
+  .hero__text-container__button {
+    margin-top: 34px;
+    width: fit-content;
+  }
+
+  .hero__profile-mobile {
+    display: none;
+  }
+
+  .hero__profile-tablet {
+    display: block;
+    width: 322px;
+    height: 600px;
+    margin-top: -120px;
+    margin-right: -32px;
+  }
+
+  .hero__rings {
+    top: 37px;
+  }
+
+  .hero__circle-2 {
+    top: 463px;
   }
 }
