@@ -6,6 +6,7 @@
 
 body {
   background-color: black;
+  position: relative;
   font-family: Space Grotesk, sans-serif;
 }
 
@@ -18,17 +19,21 @@ main {
   padding: 0px 16px;
 }
 
-.hero__single__page {
-  display: grid;
-  justify-content: center;
-  text-align: center;
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   margin-top: 20px;
-  color: white;
-  font-size: 24px;
-  font-weight: 700;
-  line-height: 32px;
 }
-.hero__social__media {
+
+.header__logo {
+  color: white;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  font-weight: 700;
+}
+
+.header__social-media {
   margin-top: 20px;
   display: flex;
   gap: 20px;
@@ -324,4 +329,18 @@ main {
   letter-spacing: -0.333px;
   color: #fff;
   margin-top: 39px;
+}
+
+@media screen and (min-width: 767px) {
+  .header {
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 30px;
+    padding: 0 30px;
+  }
+
+  .header__social-media {
+    margin-top: 0;
+    gap: 28px;
+  }
 }
