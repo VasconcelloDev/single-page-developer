@@ -139,7 +139,7 @@ main {
   gap: 24px;
 }
 
-.experience__list li strong {
+.experience__list__item strong {
   color: #fff;
   font-size: 2rem;
   font-weight: 700;
@@ -147,7 +147,7 @@ main {
   letter-spacing: -1px;
 }
 
-.experience__list li p {
+.experience__list__item p {
   color: #d9d9d9;
   font-size: 1rem;
   font-weight: 500;
@@ -407,5 +407,35 @@ main {
 
   .hero__circle-2 {
     top: 463px;
+  }
+
+  .experience__list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: start;
+    text-align: start;
+    gap: 52px 0px;
+    padding: 32px 0px 52px 0px;
+  }
+
+  .experience__list__item strong {
+    font-size: 3rem;
+    line-height: 3.5rem;
+    letter-spacing: -1.5px;
+    font-weight: 700;
+  }
+
+  .experience__list__item p {
+    font-size: 1.125rem;
+    font-weight: 500;
+    line-height: 1.75rem;
+  }
+
+  .experience__finish__line {
+    display: none;
+  }
+
+  .experience__image {
+    bottom: -16px;
   }
 }
