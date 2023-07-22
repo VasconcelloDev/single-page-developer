@@ -438,4 +438,27 @@ main {
   .experience__image {
     bottom: -16px;
   }
+
+  .projects__list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    margin-top: 50px;
+  }
+
+  .projects__title__container h2 {
+    color: #fff;
+    font-size: 4.5rem;
+    font-weight: 700;
+    line-height: 4.5rem;
+    letter-spacing: -2.045px;
+  }
+
+  .projects__title__container a {
+    color: #fff;
+    font-size: 1.125rem;
+    font-weight: 700;
+    line-height: 1.625rem;
+    letter-spacing: 2.286px;
+  }
 }
