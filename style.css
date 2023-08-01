@@ -447,7 +447,6 @@ main {
   }
 
   .projects__title__container h2 {
-    color: #fff;
     font-size: 4.5rem;
     font-weight: 700;
     line-height: 4.5rem;
@@ -455,10 +454,63 @@ main {
   }
 
   .projects__title__container a {
-    color: #fff;
     font-size: 1.125rem;
     font-weight: 700;
     line-height: 1.625rem;
     letter-spacing: 2.286px;
+  }
+
+  .footer {
+    padding: 60px 30px 40px 30px;
+  }
+
+  .footer__title {
+    font-size: 4.5rem;
+    line-height: 4.5rem;
+    letter-spacing: -2.045px;
+  }
+
+  .footer__paragraph {
+    font-size: 1.12rem;
+    line-height: 1.75rem;
+    max-width: 445px;
+    margin: auto;
+    margin-top: 15px;
+  }
+
+  .footer__form {
+    max-width: 445px;
+    margin: auto;
+  }
+
+  .footer__rings {
+    bottom: 128px;
+    margin-left: -20px;
+  }
+  .footer__form__button {
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 1.625rem;
+    letter-spacing: 2.286px;
+  }
+
+  .footer__finish-line {
+    margin-top: 27px;
+    margin-bottom: 30px;
+  }
+
+  .footer__social {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .footer__social-title {
+    font-size: 2rem;
+    letter-spacing: -0.444px;
+    margin-top: 0;
+  }
+
+  .footer__social-media {
+    margin-top: 0;
   }
 }
