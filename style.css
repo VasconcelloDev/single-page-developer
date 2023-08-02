@@ -514,3 +514,38 @@ main {
     margin-top: 0;
   }
 }
+
+@media screen and (min-width: 1439px) {
+  .header {
+    max-width: 1110px;
+    margin: auto;
+    margin-top: 40px;
+  }
+
+  .header__social-media {
+  }
+
+  .hero {
+  }
+
+  .hero__rings {
+  }
+
+  .hero__text-container {
+  }
+
+  .hero__text-container__title {
+  }
+
+  .hero__text-container__description {
+  }
+
+  .hero__text-container__button {
+  }
+
+  .hero__profile-mobile {
+  }
+
+  .hero__profile-tablet {
+  }
+}
