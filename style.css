@@ -68,6 +68,10 @@ main {
   display: none;
 }
 
+.hero__profile-desktop {
+  display: none;
+}
+
 .hero__circle-2 {
   position: absolute;
   top: 258px;
@@ -522,30 +526,61 @@ main {
     margin-top: 40px;
   }
 
-  .header__social-media {
+  main {
+    max-width: 1174px;
+    margin: auto;
   }
-
   .hero {
+    margin-top: 62px;
+    padding-bottom: 0px;
   }
 
   .hero__rings {
+    left: -78px;
+    top: 78px;
   }
 
   .hero__text-container {
+    padding-right: 343px;
+    margin-bottom: 198px;
   }
 
   .hero__text-container__title {
+    font-size: 5.5rem;
+    line-height: 5.5rem;
+    letter-spacing: -2.5px;
+    max-width: 13ch;
+    position: relative;
+    z-index: 2;
   }
 
   .hero__text-container__description {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
   }
 
   .hero__text-container__button {
-  }
-
-  .hero__profile-mobile {
+    font-size: 1rem;
+    line-height: 1.625rem;
+    letter-spacing: 2.286px;
   }
 
   .hero__profile-tablet {
+    display: none;
+  }
+
+  .hero__profile-desktop {
+    display: block;
+    width: 445px;
+    height: 740px;
+    object-fit: contain;
+    margin-left: -500px;
+    position: absolute;
+    margin-bottom: 222px;
+  }
+  .hero__circle-2 {
+    right: 472px;
+    z-index: 2;
+    padding: 64px;
   }
 }
