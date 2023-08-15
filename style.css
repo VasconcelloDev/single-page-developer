@@ -583,4 +583,15 @@ main {
     z-index: 2;
     padding: 64px;
   }
+
+  .experience__image {
+    bottom: 8px;
+    right: -425px;
+  }
+
+  .experience__list {
+    margin-top: 72px;
+    gap: 58px;
+    grid-template-columns: repeat(3, 1fr);
+  }
 }
